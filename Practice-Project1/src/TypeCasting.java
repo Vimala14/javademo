@@ -1,11 +1,9 @@
-
 public class TypeCasting {
 
 	public static void main(String[] args) {
 		
-		//implicit conversion
 		System.out.println("Implicit Type Casting");
-		char a='A';
+		char a='B';
 		System.out.println("Value of a: "+a);
 		int b=a;
 		System.out.println("Value of b: "+b);		
@@ -17,7 +15,6 @@ public class TypeCasting {
 		System.out.println("Value of e: "+e);				
 		System.out.println("\n");
 		System.out.println("Explicit Type Casting");
-		//explicit conversion
 		double x=56.4;
 		int y=(int)x;
 		System.out.println("Value of x: "+x);
@@ -27,6 +24,4 @@ public class TypeCasting {
 		System.out.println("k value " +k);
 		
 	}
-
-
 }
